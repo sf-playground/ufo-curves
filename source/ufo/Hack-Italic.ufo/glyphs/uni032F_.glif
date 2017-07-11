@@ -5,23 +5,23 @@
   <outline>
     <contour>
       <point x="-1168" y="-485" type="line" name="sv01"/>
-      <point x="-1090" y="-198"/>
-      <point x="-798" y="-198" type="qcurve" name="hr01"/>
-      <point x="-726" y="-198"/>
-      <point x="-627" y="-232"/>
-      <point x="-565" y="-293"/>
-      <point x="-538" y="-379"/>
-      <point x="-538" y="-430" type="qcurve" name="dh02"/>
-      <point x="-538" y="-457"/>
-      <point x="-541" y="-485" type="qcurve" name="hr02"/>
+      <point x="-1116" y="-293.667"/>
+      <point x="-992.667" y="-198"/>
+      <point x="-798" y="-198" type="curve" smooth="yes" name="hr01"/>
+      <point x="-606.104" y="-198"/>
+      <point x="-538" y="-292.926"/>
+      <point x="-538" y="-430" type="curve" smooth="yes" name="dh02"/>
+      <point x="-538" y="-448"/>
+      <point x="-539" y="-466.333"/>
+      <point x="-541" y="-485" type="curve" name="hr02"/>
       <point x="-660" y="-485" type="line" name="dv01"/>
-      <point x="-660" y="-472" type="line" name="dh01"/>
-      <point x="-660" y="-406"/>
-      <point x="-737" y="-335"/>
-      <point x="-824" y="-335" type="qcurve" name="sv02"/>
-      <point x="-913" y="-335"/>
-      <point x="-1022" y="-411"/>
-      <point x="-1049" y="-485" type="qcurve" name="sv03"/>
+      <point x="-660" y="-472" type="line" smooth="yes" name="dh01"/>
+      <point x="-660" y="-384"/>
+      <point x="-708" y="-335"/>
+      <point x="-824" y="-335" type="curve" smooth="yes" name="sv02"/>
+      <point x="-942.667" y="-335"/>
+      <point x="-1013" y="-386.333"/>
+      <point x="-1049" y="-485" type="curve" name="sv03"/>
     </contour>
   </outline>
   <lib>

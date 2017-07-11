@@ -4,18 +4,20 @@
   <unicode hex="04D0"/>
   <outline>
     <contour>
-      <point x="616" y="1586" type="qcurve" name="dv01"/>
-      <point x="468" y="1586"/>
-      <point x="296" y="1720"/>
-      <point x="281" y="1850" type="qcurve" name="sv02"/>
+      <point x="616" y="1586" type="curve" smooth="yes" name="dv01"/>
+      <point x="418.667" y="1586"/>
+      <point x="301" y="1676.67"/>
+      <point x="281" y="1850" type="curve" name="sv02"/>
       <point x="422" y="1850" type="line"/>
-      <point x="463" y="1729"/>
-      <point x="618" y="1729" type="qcurve" name="dv02"/>
-      <point x="769" y="1729"/>
-      <point x="809" y="1850" type="qcurve" name="sv01"/>
+      <point x="449.333" y="1769.33"/>
+      <point x="514.667" y="1729"/>
+      <point x="618" y="1729" type="curve" smooth="yes" name="dv02"/>
+      <point x="718.667" y="1729"/>
+      <point x="782.333" y="1769.33"/>
+      <point x="809" y="1850" type="curve" name="sv01"/>
       <point x="952" y="1850" type="line"/>
-      <point x="937" y="1720"/>
-      <point x="765" y="1586"/>
+      <point x="932" y="1676.67"/>
+      <point x="814.667" y="1586"/>
     </contour>
     <contour>
       <point x="436" y="1493" type="line" name="at01"/>

@@ -3,69 +3,58 @@
   <advance width="1233"/>
   <outline>
     <contour>
-      <point x="611" y="-425" type="qcurve" name="hr00"/>
-      <point x="480" y="-425"/>
-      <point x="353" y="-290"/>
-      <point x="353" y="-149" type="qcurve" name="dh01"/>
-      <point x="353" y="-92"/>
-      <point x="373" y="27"/>
-      <point x="408" y="142"/>
-      <point x="457" y="247"/>
-      <point x="487" y="288" type="qcurve"/>
-      <point x="546" y="370"/>
-      <point x="696" y="442"/>
-      <point x="790" y="442" type="qcurve" name="dv03"/>
-      <point x="921" y="442"/>
-      <point x="1050" y="308"/>
-      <point x="1050" y="168" type="qcurve" name="dh06"/>
-      <point x="1050" y="113"/>
-      <point x="1031" y="-6"/>
-      <point x="995" y="-122"/>
-      <point x="946" y="-228"/>
-      <point x="916" y="-270" type="qcurve"/>
-      <point x="806" y="-425"/>
+      <point x="611" y="-425" type="curve" smooth="yes" name="hr00"/>
+      <point x="436.333" y="-425"/>
+      <point x="353" y="-337"/>
+      <point x="353" y="-149" type="curve" smooth="yes" name="dh01"/>
+      <point x="353" y="0.821286"/>
+      <point x="407.204" y="178.945"/>
+      <point x="487" y="288" type="curve" smooth="yes"/>
+      <point x="565.667" y="397.333"/>
+      <point x="664.667" y="442"/>
+      <point x="790" y="442" type="curve" smooth="yes" name="dv03"/>
+      <point x="964.667" y="442"/>
+      <point x="1050" y="354.667"/>
+      <point x="1050" y="168" type="curve" smooth="yes" name="dh06"/>
+      <point x="1050" y="21.5538"/>
+      <point x="995.843" y="-158.22"/>
+      <point x="916" y="-270" type="curve" smooth="yes"/>
+      <point x="842.667" y="-373.333"/>
+      <point x="741" y="-425"/>
     </contour>
     <contour>
-      <point x="625" y="-333" type="qcurve" name="dv01"/>
-      <point x="682" y="-333"/>
-      <point x="769" y="-280"/>
-      <point x="804" y="-222" type="qcurve"/>
-      <point x="827" y="-184"/>
-      <point x="867" y="-84"/>
-      <point x="896" y="25"/>
-      <point x="913" y="135"/>
-      <point x="913" y="182" type="qcurve" name="dh05"/>
-      <point x="913" y="272"/>
-      <point x="848" y="350"/>
-      <point x="779" y="350" type="qcurve" name="dv02"/>
-      <point x="722" y="350"/>
-      <point x="633" y="299"/>
-      <point x="597" y="240" type="qcurve"/>
-      <point x="574" y="202"/>
-      <point x="534" y="101"/>
-      <point x="505" y="-9"/>
-      <point x="488" y="-119"/>
-      <point x="488" y="-165" type="qcurve" name="dh02"/>
-      <point x="488" y="-253"/>
-      <point x="554" y="-333"/>
+      <point x="625" y="-333" type="curve" smooth="yes" name="dv01"/>
+      <point x="701" y="-333"/>
+      <point x="757.333" y="-299.333"/>
+      <point x="804" y="-222" type="curve" smooth="yes"/>
+      <point x="865.194" y="-120.897"/>
+      <point x="913" y="55.8735"/>
+      <point x="913" y="182" type="curve" smooth="yes" name="dh05"/>
+      <point x="913" y="302"/>
+      <point x="871" y="350"/>
+      <point x="779" y="350" type="curve" smooth="yes" name="dv02"/>
+      <point x="703" y="350"/>
+      <point x="645" y="318.667"/>
+      <point x="597" y="240" type="curve" smooth="yes"/>
+      <point x="535.842" y="138.956"/>
+      <point x="488" y="-41.6112"/>
+      <point x="488" y="-165" type="curve" smooth="yes" name="dh02"/>
+      <point x="488" y="-282.333"/>
+      <point x="530.333" y="-333"/>
     </contour>
     <contour>
-      <point x="702" y="-64" type="qcurve" name="dv04"/>
-      <point x="664" y="-64"/>
-      <point x="610" y="-21"/>
-      <point x="610" y="11" type="qcurve" name="dh03"/>
-      <point x="610" y="27"/>
-      <point x="625" y="54"/>
-      <point x="650" y="75"/>
-      <point x="683" y="87"/>
-      <point x="701" y="87" type="qcurve" name="dv05"/>
-      <point x="719" y="87"/>
-      <point x="752" y="75"/>
-      <point x="777" y="54"/>
-      <point x="791" y="26"/>
-      <point x="791" y="10" type="qcurve" name="dh04"/>
-      <point x="791" y="-21"/>
-      <point x="740" y="-64"/>
+      <point x="702" y="-64" type="curve" smooth="yes" name="dv04"/>
+      <point x="651.333" y="-64"/>
+      <point x="610" y="-31.6667"/>
+      <point x="610" y="11" type="curve" smooth="yes" name="dh03"/>
+      <point x="610" y="52.5931"/>
+      <point x="652.974" y="87"/>
+      <point x="701" y="87" type="curve" smooth="yes" name="dv05"/>
+      <point x="749.918" y="87"/>
+      <point x="791" y="52.6407"/>
+      <point x="791" y="10" type="curve" smooth="yes" name="dh04"/>
+      <point x="791" y="-31.3333"/>
+      <point x="752.667" y="-64"/>
     </contour>
   </outline>
   <lib>

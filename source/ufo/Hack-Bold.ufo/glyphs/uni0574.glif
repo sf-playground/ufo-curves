@@ -4,19 +4,19 @@
   <unicode hex="0574"/>
   <outline>
     <contour>
-      <point x="485" y="-29" type="qcurve" name="sv01"/>
-      <point x="327" y="-29"/>
-      <point x="166" y="180"/>
-      <point x="166" y="391" type="qcurve" name="dh01"/>
+      <point x="485" y="-29" type="curve" smooth="yes" name="sv01"/>
+      <point x="274.333" y="-29"/>
+      <point x="166" y="109.667"/>
+      <point x="166" y="391" type="curve" smooth="yes" name="dh01"/>
       <point x="166" y="1120" type="line" name="hr01"/>
       <point x="459" y="1120" type="line"/>
-      <point x="459" y="436" type="line" name="dh02"/>
-      <point x="459" y="318"/>
-      <point x="525" y="211"/>
-      <point x="599" y="211" type="qcurve" name="hr02"/>
-      <point x="687" y="211"/>
-      <point x="774" y="350"/>
-      <point x="774" y="477" type="qcurve" name="sh01"/>
+      <point x="459" y="436" type="line" smooth="yes" name="dh02"/>
+      <point x="459" y="278.667"/>
+      <point x="500.333" y="211"/>
+      <point x="599" y="211" type="curve" smooth="yes" name="hr02"/>
+      <point x="716.333" y="211"/>
+      <point x="774" y="307.667"/>
+      <point x="774" y="477" type="curve" smooth="yes" name="sh01"/>
       <point x="774" y="1556" type="line" name="at01"/>
       <point x="1195" y="1556" type="line"/>
       <point x="1195" y="1331" type="line" name="sh02"/>
@@ -24,8 +24,8 @@
       <point x="1067" y="0" type="line" name="dh04"/>
       <point x="774" y="0" type="line" name="dh03"/>
       <point x="774" y="166" type="line" name="iv01"/>
-      <point x="743" y="73"/>
-      <point x="598" y="-29"/>
+      <point x="732.667" y="42"/>
+      <point x="635.667" y="-29"/>
     </contour>
   </outline>
   <lib>

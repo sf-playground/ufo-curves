@@ -4,18 +4,20 @@
   <unicode hex="04D6"/>
   <outline>
     <contour>
-      <point x="634" y="1586" type="qcurve" name="dv01"/>
-      <point x="486" y="1586"/>
-      <point x="314" y="1720"/>
-      <point x="299" y="1850" type="qcurve" name="sv02"/>
+      <point x="634" y="1586" type="curve" smooth="yes" name="dv01"/>
+      <point x="436.667" y="1586"/>
+      <point x="319" y="1676.67"/>
+      <point x="299" y="1850" type="curve" name="sv02"/>
       <point x="440" y="1850" type="line"/>
-      <point x="481" y="1729"/>
-      <point x="636" y="1729" type="qcurve" name="dv02"/>
-      <point x="787" y="1729"/>
-      <point x="827" y="1850" type="qcurve" name="sv01"/>
+      <point x="467.333" y="1769.33"/>
+      <point x="532.667" y="1729"/>
+      <point x="636" y="1729" type="curve" smooth="yes" name="dv02"/>
+      <point x="736.667" y="1729"/>
+      <point x="800.333" y="1769.33"/>
+      <point x="827" y="1850" type="curve" name="sv01"/>
       <point x="970" y="1850" type="line"/>
-      <point x="955" y="1720"/>
-      <point x="783" y="1586"/>
+      <point x="950" y="1676.67"/>
+      <point x="832.667" y="1586"/>
     </contour>
     <contour>
       <point x="168" y="1493" type="line" name="dh01"/>

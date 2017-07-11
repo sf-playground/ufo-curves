@@ -5,31 +5,32 @@
   <outline>
     <contour>
       <point x="502" y="-270" type="line" name="sv01"/>
-      <point x="687" y="-270" type="line"/>
-      <point x="866" y="-270"/>
-      <point x="866" y="-20" type="qcurve" name="ah01"/>
-      <point x="866" y="694" type="line"/>
-      <point x="866" y="845"/>
-      <point x="761" y="987"/>
-      <point x="648" y="987" type="qcurve" name="sv02"/>
-      <point x="517" y="987"/>
-      <point x="379" y="805"/>
-      <point x="379" y="633" type="qcurve"/>
+      <point x="687" y="-270" type="line" smooth="yes"/>
+      <point x="806.333" y="-270"/>
+      <point x="866" y="-186.667"/>
+      <point x="866" y="-20" type="curve" smooth="yes" name="ah01"/>
+      <point x="866" y="694" type="line" smooth="yes"/>
+      <point x="866" y="895.333"/>
+      <point x="798.667" y="987"/>
+      <point x="648" y="987" type="curve" smooth="yes" name="sv02"/>
+      <point x="473.333" y="987"/>
+      <point x="379" y="862.333"/>
+      <point x="379" y="633" type="curve" smooth="yes"/>
       <point x="379" y="0" type="line" name="hr01"/>
       <point x="195" y="0" type="line" name="sh01"/>
       <point x="195" y="1120" type="line" name="at01"/>
       <point x="361" y="1120" type="line"/>
       <point x="379" y="952" type="line" name="sh02"/>
-      <point x="428" y="1049"/>
-      <point x="596" y="1147"/>
-      <point x="711" y="1147" type="qcurve" name="sv03"/>
-      <point x="883" y="1147"/>
-      <point x="1051" y="923"/>
-      <point x="1051" y="694" type="qcurve"/>
-      <point x="1051" y="-20" type="line" name="sh03"/>
-      <point x="1051" y="-216"/>
-      <point x="873" y="-426"/>
-      <point x="707" y="-426" type="qcurve" name="ab01"/>
+      <point x="444.333" y="1081.33"/>
+      <point x="557.667" y="1147"/>
+      <point x="711" y="1147" type="curve" smooth="yes" name="sv03"/>
+      <point x="940.333" y="1147"/>
+      <point x="1051" y="999.333"/>
+      <point x="1051" y="694" type="curve" smooth="yes"/>
+      <point x="1051" y="-20" type="line" smooth="yes" name="sh03"/>
+      <point x="1051" y="-281.333"/>
+      <point x="928.333" y="-426"/>
+      <point x="707" y="-426" type="curve" smooth="yes" name="ab01"/>
       <point x="502" y="-426" type="line"/>
     </contour>
   </outline>

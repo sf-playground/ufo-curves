@@ -4,20 +4,16 @@
   <unicode hex="23A9"/>
   <outline>
     <contour>
-      <point x="942" y="-492" type="line" name="hr00"/>
-      <point x="833" y="-492"/>
-      <point x="660" y="-421"/>
-      <point x="540" y="-286"/>
-      <point x="476" y="-91"/>
-      <point x="476" y="34" type="qcurve" name="dh01"/>
+      <point x="942" y="-492" type="line" smooth="yes" name="hr00"/>
+      <point x="651.281" y="-492"/>
+      <point x="476" y="-298.312"/>
+      <point x="476" y="34" type="curve" smooth="yes" name="dh01"/>
       <point x="476" y="1913" type="line" name="av01"/>
       <point x="758" y="1913" type="line"/>
-      <point x="758" y="26" type="line" name="dh02"/>
-      <point x="758" y="-55"/>
-      <point x="775" y="-152"/>
-      <point x="817" y="-204"/>
-      <point x="885" y="-220"/>
-      <point x="936" y="-220" type="qcurve" name="sv01"/>
+      <point x="758" y="26" type="line" smooth="yes" name="dh02"/>
+      <point x="758" y="-189.948"/>
+      <point x="800.156" y="-220"/>
+      <point x="936" y="-220" type="curve" smooth="yes" name="sv01"/>
       <point x="1217" y="-220" type="line" name="sv02"/>
       <point x="1217" y="-492" type="line" name="ab01"/>
     </contour>

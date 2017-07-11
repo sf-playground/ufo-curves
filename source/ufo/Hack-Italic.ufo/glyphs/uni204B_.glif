@@ -5,19 +5,16 @@
   <outline>
     <contour>
       <point x="367" y="1493" type="line" name="hr00"/>
-      <point x="815" y="1493" type="line"/>
-      <point x="909" y="1493"/>
-      <point x="1059" y="1447"/>
-      <point x="1163" y="1360"/>
-      <point x="1218" y="1236"/>
-      <point x="1218" y="1159" type="qcurve"/>
-      <point x="1218" y="1117"/>
-      <point x="1209" y="1071" type="qcurve"/>
-      <point x="1192" y="979"/>
-      <point x="1102" y="831"/>
-      <point x="965" y="723"/>
-      <point x="784" y="657"/>
-      <point x="676" y="649" type="qcurve"/>
+      <point x="815" y="1493" type="line" smooth="yes"/>
+      <point x="1066.66" y="1493"/>
+      <point x="1218" y="1365.25"/>
+      <point x="1218" y="1159" type="curve" smooth="yes"/>
+      <point x="1218" y="1131"/>
+      <point x="1215" y="1101.67"/>
+      <point x="1209" y="1071" type="curve" smooth="yes"/>
+      <point x="1164.01" y="827.504"/>
+      <point x="963.862" y="670.323"/>
+      <point x="676" y="649" type="curve"/>
       <point x="512" y="-197" type="line" name="av01"/>
       <point x="371" y="-197" type="line"/>
       <point x="675" y="1370" type="line" name="sv01"/>

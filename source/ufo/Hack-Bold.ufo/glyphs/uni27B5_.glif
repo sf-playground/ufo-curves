@@ -9,10 +9,12 @@
       <point x="653" y="698" type="line" name="sv04"/>
       <point x="909" y="698" type="line" name="sv02"/>
       <point x="909" y="875" type="line" name="av01"/>
-      <point x="1020" y="740"/>
-      <point x="1149" y="670" type="qcurve" name="iv01"/>
-      <point x="1020" y="600"/>
-      <point x="909" y="465" type="qcurve" name="hr01"/>
+      <point x="983" y="785"/>
+      <point x="1063" y="716.667"/>
+      <point x="1149" y="670" type="curve" name="iv01"/>
+      <point x="1063" y="623.333"/>
+      <point x="983" y="555"/>
+      <point x="909" y="465" type="curve" name="hr01"/>
     </contour>
     <contour>
       <point x="84" y="841" type="line"/>

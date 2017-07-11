@@ -4,38 +4,31 @@
   <unicode hex="23AC"/>
   <outline>
     <contour>
-      <point x="523" y="20" type="line" name="hr00"/>
-      <point x="523" y="249"/>
-      <point x="574" y="538"/>
-      <point x="624" y="612" type="qcurve"/>
-      <point x="644" y="641"/>
-      <point x="695" y="689"/>
-      <point x="724" y="705" type="qcurve" name="iv01"/>
-      <point x="692" y="722"/>
-      <point x="642" y="771"/>
-      <point x="624" y="798" type="qcurve"/>
-      <point x="523" y="950"/>
-      <point x="523" y="1390" type="qcurve" name="sh01"/>
+      <point x="523" y="20" type="line" smooth="yes" name="hr00"/>
+      <point x="523" y="325.333"/>
+      <point x="557.333" y="513.333"/>
+      <point x="624" y="612" type="curve" smooth="yes"/>
+      <point x="650.667" y="650.667"/>
+      <point x="685.333" y="683.667"/>
+      <point x="724" y="705" type="curve" name="iv01"/>
+      <point x="681.333" y="727.667"/>
+      <point x="648" y="762"/>
+      <point x="624" y="798" type="curve" smooth="yes"/>
+      <point x="556.667" y="899.333"/>
+      <point x="523" y="1096.67"/>
+      <point x="523" y="1390" type="curve" smooth="yes" name="sh01"/>
       <point x="523" y="1926" type="line" name="av02"/>
       <point x="709" y="1926" type="line" name="sh02"/>
-      <point x="709" y="1402" type="line"/>
-      <point x="709" y="1257"/>
-      <point x="727" y="1055"/>
-      <point x="769" y="921"/>
-      <point x="836" y="845"/>
-      <point x="936" y="808"/>
-      <point x="1069" y="799"/>
-      <point x="1155" y="799" type="qcurve" name="dv02"/>
+      <point x="709" y="1402" type="line" smooth="yes"/>
+      <point x="709" y="822.173"/>
+      <point x="810.104" y="799"/>
+      <point x="1155" y="799" type="curve" smooth="yes" name="dv02"/>
       <point x="1216" y="799" type="line"/>
       <point x="1216" y="612" type="line"/>
-      <point x="1155" y="611" type="line" name="dv01"/>
-      <point x="1068" y="609"/>
-      <point x="935" y="601"/>
-      <point x="836" y="565"/>
-      <point x="768" y="491"/>
-      <point x="727" y="358"/>
-      <point x="709" y="155"/>
-      <point x="709" y="8" type="qcurve" name="dh01"/>
+      <point x="1155" y="611" type="line" smooth="yes" name="dv01"/>
+      <point x="808.434" y="603.033"/>
+      <point x="709" y="597.998"/>
+      <point x="709" y="8" type="curve" smooth="yes" name="dh01"/>
       <point x="709" y="-516" type="line" name="av01"/>
       <point x="523" y="-516" type="line"/>
     </contour>

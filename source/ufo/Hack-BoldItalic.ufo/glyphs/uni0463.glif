@@ -15,30 +15,29 @@
       <point x="1050" y="950" type="line" name="sv02"/>
       <point x="648" y="950" type="line"/>
       <point x="599" y="698" type="line" name="dv02"/>
-      <point x="726" y="698" type="line"/>
-      <point x="914" y="698"/>
-      <point x="1121" y="563"/>
-      <point x="1121" y="428" type="qcurve" name="dh02"/>
-      <point x="1121" y="408"/>
-      <point x="1117" y="371"/>
-      <point x="1113" y="350" type="qcurve"/>
-      <point x="1097" y="264"/>
-      <point x="1010" y="133"/>
-      <point x="876" y="45"/>
-      <point x="698" y="0"/>
-      <point x="590" y="0" type="qcurve" name="ab01"/>
+      <point x="726" y="698" type="line" smooth="yes"/>
+      <point x="976.667" y="698"/>
+      <point x="1121" y="608"/>
+      <point x="1121" y="428" type="curve" smooth="yes" name="dh02"/>
+      <point x="1121" y="401.333"/>
+      <point x="1118.33" y="378"/>
+      <point x="1113" y="350" type="curve" smooth="yes"/>
+      <point x="1070.31" y="120.565"/>
+      <point x="877.071" y="0"/>
+      <point x="590" y="0" type="curve" smooth="yes" name="ab01"/>
       <point x="172" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="579" y="219" type="line" name="sv03"/>
-      <point x="691" y="219"/>
-      <point x="807" y="281"/>
-      <point x="820" y="350" type="qcurve"/>
-      <point x="823" y="366"/>
-      <point x="823" y="380" type="qcurve" name="dh01"/>
-      <point x="823" y="434"/>
-      <point x="727" y="479"/>
-      <point x="629" y="479" type="qcurve" name="dv01"/>
+      <point x="579" y="219" type="line" smooth="yes" name="sv03"/>
+      <point x="728.333" y="219"/>
+      <point x="802.667" y="258"/>
+      <point x="820" y="350" type="curve" smooth="yes"/>
+      <point x="822" y="360.667"/>
+      <point x="823" y="370.667"/>
+      <point x="823" y="380" type="curve" smooth="yes" name="dh01"/>
+      <point x="823" y="452"/>
+      <point x="759.667" y="479"/>
+      <point x="629" y="479" type="curve" smooth="yes" name="dv01"/>
       <point x="556" y="479" type="line"/>
       <point x="506" y="219" type="line"/>
     </contour>

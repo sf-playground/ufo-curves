@@ -4,20 +4,22 @@
   <outline>
     <contour>
       <point x="-779" y="1635" type="line" name="sv01"/>
-      <point x="-739" y="1765"/>
-      <point x="-541" y="1899"/>
-      <point x="-393" y="1899" type="qcurve" name="hr01"/>
-      <point x="-245" y="1899"/>
-      <point x="-107" y="1774"/>
-      <point x="-107" y="1665" type="qcurve" name="hr02"/>
-      <point x="-107" y="1658"/>
-      <point x="-107" y="1643"/>
-      <point x="-108" y="1635" type="qcurve"/>
+      <point x="-725.667" y="1808.33"/>
+      <point x="-590.333" y="1899"/>
+      <point x="-393" y="1899" type="curve" smooth="yes" name="hr01"/>
+      <point x="-195.667" y="1899"/>
+      <point x="-107" y="1810.33"/>
+      <point x="-107" y="1665" type="curve" smooth="yes" name="hr02"/>
+      <point x="-107" y="1655.67"/>
+      <point x="-106.667" y="1645.67"/>
+      <point x="-108" y="1635" type="curve"/>
       <point x="-251" y="1635" type="line" name="dv01"/>
-      <point x="-267" y="1756"/>
-      <point x="-421" y="1756" type="qcurve" name="sv02"/>
-      <point x="-574" y="1756"/>
-      <point x="-638" y="1635" type="qcurve" name="sv03"/>
+      <point x="-261.667" y="1715.67"/>
+      <point x="-318.333" y="1756"/>
+      <point x="-421" y="1756" type="curve" smooth="yes" name="sv02"/>
+      <point x="-523" y="1756"/>
+      <point x="-595.333" y="1715.67"/>
+      <point x="-638" y="1635" type="curve" name="sv03"/>
     </contour>
   </outline>
   <lib>

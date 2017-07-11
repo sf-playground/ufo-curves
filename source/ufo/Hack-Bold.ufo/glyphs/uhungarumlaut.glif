@@ -16,26 +16,26 @@
       <point x="639" y="1270" type="line" name="ih02"/>
     </contour>
     <contour>
-      <point x="480" y="-29" type="qcurve" name="sv04"/>
-      <point x="323" y="-29"/>
-      <point x="160" y="182"/>
-      <point x="160" y="391" type="qcurve" name="sh01"/>
+      <point x="480" y="-29" type="curve" smooth="yes" name="sv04"/>
+      <point x="270.667" y="-29"/>
+      <point x="160" y="112.333"/>
+      <point x="160" y="391" type="curve" smooth="yes" name="sh01"/>
       <point x="160" y="1120" type="line" name="at01"/>
       <point x="453" y="1120" type="line"/>
-      <point x="453" y="436" type="line" name="hr02"/>
-      <point x="453" y="319"/>
-      <point x="519" y="211"/>
-      <point x="593" y="211" type="qcurve" name="sv03"/>
-      <point x="681" y="211"/>
-      <point x="768" y="350"/>
-      <point x="768" y="477" type="qcurve" name="sh03"/>
+      <point x="453" y="436" type="line" smooth="yes" name="hr02"/>
+      <point x="453" y="280"/>
+      <point x="494.333" y="211"/>
+      <point x="593" y="211" type="curve" smooth="yes" name="sv03"/>
+      <point x="710.333" y="211"/>
+      <point x="768" y="307.667"/>
+      <point x="768" y="477" type="curve" smooth="yes" name="sh03"/>
       <point x="768" y="1120" type="line" name="at02"/>
       <point x="1061" y="1120" type="line"/>
       <point x="1061" y="0" type="line" name="sh02"/>
       <point x="797" y="0" type="line"/>
       <point x="768" y="166" type="line" name="ah01"/>
-      <point x="737" y="74"/>
-      <point x="592" y="-29"/>
+      <point x="726.667" y="43.3333"/>
+      <point x="629.333" y="-29"/>
     </contour>
   </outline>
   <lib>

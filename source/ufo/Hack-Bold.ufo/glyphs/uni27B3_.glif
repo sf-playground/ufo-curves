@@ -11,12 +11,12 @@
       <point x="605" y="590" type="line" name="sv02"/>
       <point x="883" y="590" type="line" name="sv03"/>
       <point x="883" y="788" type="line" name="iv01"/>
-      <point x="945" y="721"/>
-      <point x="1075" y="608"/>
-      <point x="1145" y="562" type="qcurve" name="iv02"/>
-      <point x="1075" y="515"/>
-      <point x="945" y="402"/>
-      <point x="883" y="335" type="qcurve" name="iv03"/>
+      <point x="965.667" y="698.667"/>
+      <point x="1051.67" y="623.333"/>
+      <point x="1145" y="562" type="curve" name="iv02"/>
+      <point x="1051.67" y="499.333"/>
+      <point x="965.667" y="424.333"/>
+      <point x="883" y="335" type="curve" name="iv03"/>
       <point x="883" y="533" type="line" name="sv04"/>
       <point x="605" y="533" type="line"/>
       <point x="472" y="334" type="line" name="dv01"/>

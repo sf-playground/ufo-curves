@@ -13,19 +13,19 @@
       <point x="302" y="1120" type="line" name="dh01"/>
       <point x="469" y="1120" type="line"/>
       <point x="487" y="901" type="line" name="dh02"/>
-      <point x="532" y="1017"/>
-      <point x="719" y="1147"/>
-      <point x="856" y="1147" type="qcurve" name="sv02"/>
-      <point x="923" y="1147"/>
-      <point x="1041" y="1113"/>
-      <point x="1095" y="1077" type="qcurve" name="hr01"/>
+      <point x="547" y="1055.67"/>
+      <point x="673.333" y="1147"/>
+      <point x="856" y="1147" type="curve" smooth="yes" name="sv02"/>
+      <point x="945.333" y="1147"/>
+      <point x="1023" y="1125"/>
+      <point x="1095" y="1077" type="curve" name="hr01"/>
       <point x="1095" y="889" type="line" name="iv02"/>
-      <point x="1035" y="935"/>
-      <point x="914" y="977"/>
-      <point x="841" y="977" type="qcurve" name="sv01"/>
-      <point x="668" y="977"/>
-      <point x="487" y="762"/>
-      <point x="487" y="557" type="qcurve" name="sh01"/>
+      <point x="1015" y="950.333"/>
+      <point x="938.333" y="977"/>
+      <point x="841" y="977" type="curve" smooth="yes" name="sv01"/>
+      <point x="610.333" y="977"/>
+      <point x="487" y="830.333"/>
+      <point x="487" y="557" type="curve" smooth="yes" name="sh01"/>
       <point x="487" y="0" type="line" name="ab01"/>
       <point x="302" y="0" type="line"/>
     </contour>

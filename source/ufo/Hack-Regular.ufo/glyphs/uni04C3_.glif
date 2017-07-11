@@ -5,15 +5,14 @@
   <outline>
     <contour>
       <point x="551" y="-240" type="line" name="dh03"/>
-      <point x="613" y="-240" type="line" name="dv02"/>
-      <point x="680" y="-240"/>
-      <point x="773" y="-205"/>
-      <point x="832" y="-125"/>
-      <point x="858" y="7"/>
-      <point x="858" y="104" type="qcurve" name="sh01"/>
-      <point x="858" y="394" type="line"/>
-      <point x="858" y="711"/>
-      <point x="610" y="711" type="qcurve" name="dv03"/>
+      <point x="613" y="-240" type="line" smooth="yes" name="dv02"/>
+      <point x="791.537" y="-240"/>
+      <point x="858" y="-154.771"/>
+      <point x="858" y="104" type="curve" smooth="yes" name="sh01"/>
+      <point x="858" y="394" type="line" smooth="yes"/>
+      <point x="858" y="605.333"/>
+      <point x="775.333" y="711"/>
+      <point x="610" y="711" type="curve" smooth="yes" name="dv03"/>
       <point x="459" y="711" type="line"/>
       <point x="340" y="584" type="line"/>
       <point x="340" y="0" type="line" name="dh02"/>
@@ -24,18 +23,14 @@
       <point x="971" y="1493" type="line" name="at02"/>
       <point x="1208" y="1493" type="line"/>
       <point x="627" y="881" type="line" name="ih02"/>
-      <point x="651" y="881" type="line"/>
-      <point x="742" y="881"/>
-      <point x="893" y="823"/>
-      <point x="1001" y="706"/>
-      <point x="1061" y="529"/>
-      <point x="1061" y="410" type="qcurve" name="hr01"/>
-      <point x="1061" y="104" type="line" name="dh04"/>
-      <point x="1061" y="-30"/>
-      <point x="1011" y="-224"/>
-      <point x="905" y="-350"/>
-      <point x="741" y="-410"/>
-      <point x="627" y="-410" type="qcurve" name="dv01"/>
+      <point x="651" y="881" type="line" smooth="yes"/>
+      <point x="893.719" y="881"/>
+      <point x="1061" y="727.359"/>
+      <point x="1061" y="410" type="curve" smooth="yes" name="hr01"/>
+      <point x="1061" y="104" type="line" smooth="yes" name="dh04"/>
+      <point x="1061" y="-253.281"/>
+      <point x="930.948" y="-410"/>
+      <point x="627" y="-410" type="curve" smooth="yes" name="dv01"/>
       <point x="551" y="-410" type="line" name="hr02"/>
     </contour>
   </outline>

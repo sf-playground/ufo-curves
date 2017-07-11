@@ -3,18 +3,20 @@
   <advance width="0"/>
   <outline>
     <contour>
-      <point x="-617" y="1635" type="qcurve" name="dv01"/>
-      <point x="-765" y="1635"/>
-      <point x="-937" y="1769"/>
-      <point x="-952" y="1899" type="qcurve" name="sv01"/>
+      <point x="-617" y="1635" type="curve" smooth="yes" name="dv01"/>
+      <point x="-814.333" y="1635"/>
+      <point x="-932" y="1725.67"/>
+      <point x="-952" y="1899" type="curve" name="sv01"/>
       <point x="-811" y="1899" type="line"/>
-      <point x="-770" y="1778"/>
-      <point x="-617" y="1778" type="qcurve" name="hr01"/>
-      <point x="-464" y="1778"/>
-      <point x="-424" y="1899" type="qcurve" name="hr02"/>
+      <point x="-783.667" y="1818.33"/>
+      <point x="-719" y="1778"/>
+      <point x="-617" y="1778" type="curve" smooth="yes" name="hr01"/>
+      <point x="-515" y="1778"/>
+      <point x="-450.667" y="1818.33"/>
+      <point x="-424" y="1899" type="curve" name="hr02"/>
       <point x="-281" y="1899" type="line"/>
-      <point x="-296" y="1769"/>
-      <point x="-468" y="1635"/>
+      <point x="-301" y="1725.67"/>
+      <point x="-418.333" y="1635"/>
     </contour>
   </outline>
   <lib>

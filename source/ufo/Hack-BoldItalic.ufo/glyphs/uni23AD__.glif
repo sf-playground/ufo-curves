@@ -5,20 +5,16 @@
   <outline>
     <contour>
       <point x="16" y="-220" type="line" name="hr00"/>
-      <point x="297" y="-220" type="line"/>
-      <point x="348" y="-220"/>
-      <point x="416" y="-204"/>
-      <point x="458" y="-152"/>
-      <point x="475" y="-55"/>
-      <point x="475" y="26" type="qcurve" name="dh01"/>
+      <point x="297" y="-220" type="line" smooth="yes"/>
+      <point x="432.844" y="-220"/>
+      <point x="475" y="-189.948"/>
+      <point x="475" y="26" type="curve" smooth="yes" name="dh01"/>
       <point x="475" y="1913" type="line" name="av01"/>
       <point x="757" y="1913" type="line"/>
-      <point x="757" y="34" type="line" name="dh02"/>
-      <point x="757" y="-91"/>
-      <point x="693" y="-286"/>
-      <point x="573" y="-421"/>
-      <point x="400" y="-492"/>
-      <point x="291" y="-492" type="qcurve" name="ab01"/>
+      <point x="757" y="34" type="line" smooth="yes" name="dh02"/>
+      <point x="757" y="-298.312"/>
+      <point x="581.719" y="-492"/>
+      <point x="291" y="-492" type="curve" smooth="yes" name="ab01"/>
       <point x="16" y="-492" type="line"/>
     </contour>
   </outline>

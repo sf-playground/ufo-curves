@@ -5,12 +5,10 @@
   <outline>
     <contour>
       <point x="487" y="-199" type="line" name="hr00"/>
-      <point x="600" y="-199" type="line"/>
-      <point x="649" y="-199"/>
-      <point x="718" y="-173"/>
-      <point x="761" y="-115"/>
-      <point x="780" y="-23"/>
-      <point x="780" y="43" type="qcurve" name="ah01"/>
+      <point x="600" y="-199" type="line" smooth="yes"/>
+      <point x="731.636" y="-199"/>
+      <point x="780" y="-132.948"/>
+      <point x="780" y="43" type="curve" smooth="yes" name="ah01"/>
       <point x="780" y="530" type="line" name="dv01"/>
       <point x="463" y="530" type="line"/>
       <point x="463" y="0" type="line" name="sh02"/>
@@ -21,12 +19,10 @@
       <point x="780" y="739" type="line" name="sh04"/>
       <point x="780" y="1120" type="line" name="at02"/>
       <point x="1071" y="1120" type="line"/>
-      <point x="1071" y="43" type="line" name="sh05"/>
-      <point x="1071" y="-83"/>
-      <point x="1028" y="-261"/>
-      <point x="934" y="-373"/>
-      <point x="787" y="-424"/>
-      <point x="682" y="-424" type="qcurve" name="ab01"/>
+      <point x="1071" y="43" type="line" smooth="yes" name="sh05"/>
+      <point x="1071" y="-293.996"/>
+      <point x="960.9" y="-424"/>
+      <point x="682" y="-424" type="curve" smooth="yes" name="ab01"/>
       <point x="487" y="-424" type="line"/>
     </contour>
   </outline>

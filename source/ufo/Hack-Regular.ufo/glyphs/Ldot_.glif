@@ -12,18 +12,22 @@
       <point x="215" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="676" y="570" type="qcurve"/>
-      <point x="676" y="714" type="line"/>
-      <point x="676" y="744"/>
-      <point x="706" y="744" type="qcurve"/>
-      <point x="851" y="744" type="line"/>
-      <point x="881" y="744"/>
-      <point x="881" y="714" type="qcurve"/>
-      <point x="881" y="570" type="line"/>
-      <point x="881" y="540"/>
-      <point x="851" y="540" type="qcurve"/>
-      <point x="706" y="540" type="line"/>
-      <point x="676" y="540"/>
+      <point x="676" y="570" type="curve" smooth="yes"/>
+      <point x="676" y="714" type="line" smooth="yes"/>
+      <point x="676" y="734"/>
+      <point x="686" y="744"/>
+      <point x="706" y="744" type="curve" smooth="yes"/>
+      <point x="851" y="744" type="line" smooth="yes"/>
+      <point x="871" y="744"/>
+      <point x="881" y="734"/>
+      <point x="881" y="714" type="curve" smooth="yes"/>
+      <point x="881" y="570" type="line" smooth="yes"/>
+      <point x="881" y="550"/>
+      <point x="871" y="540"/>
+      <point x="851" y="540" type="curve" smooth="yes"/>
+      <point x="706" y="540" type="line" smooth="yes"/>
+      <point x="686" y="540"/>
+      <point x="676" y="550"/>
     </contour>
   </outline>
   <lib>
