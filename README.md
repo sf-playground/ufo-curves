@@ -3,7 +3,8 @@
 Source branches:
 
 - `master` - no UFO source (yet)
-- `TTvfb2UFO_current` - current UFO source in Hack repository
+- `TTvfb2UFO_current`
+    - current UFO source in Hack repository
     -Direct UFO export from *-TT.vfb FontLab Studio V source files
 - `TTvfb_to_PScurves_to_UFO`
     - *-TT.vfb FontLab Studio V source to PS curve conversion in FLS VI
