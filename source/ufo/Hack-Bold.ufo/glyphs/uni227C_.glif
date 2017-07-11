@@ -5,52 +5,36 @@
   <outline>
     <contour>
       <point x="1145" y="147" type="line" name="hr00"/>
-      <point x="867" y="482.333"/>
-      <point x="514.667" y="667.333"/>
+      <point x="867" y="482"/>
+      <point x="515" y="667"/>
       <point x="88" y="702" type="curve"/>
       <point x="88" y="968" type="line"/>
-      <point x="522.667" y="992.667"/>
-      <point x="875" y="1177.67"/>
+      <point x="523" y="993"/>
+      <point x="875" y="1178"/>
       <point x="1145" y="1523" type="curve" name="av01"/>
       <point x="1145" y="1185" type="line"/>
-      <point x="963" y="1001.67"/>
-      <point x="760.333" y="885"/>
+      <point x="963" y="1002"/>
+      <point x="760" y="885"/>
       <point x="537" y="835" type="curve" name="iv01"/>
-      <point x="761.667" y="786.333"/>
-      <point x="964.333" y="669.667"/>
+      <point x="762" y="786"/>
+      <point x="964" y="670"/>
       <point x="1145" y="485" type="curve"/>
     </contour>
     <contour>
       <point x="1145" y="-421" type="line" name="av02"/>
       <point x="879" y="-27"/>
-      <point x="526.667" y="210.333"/>
+      <point x="527" y="210"/>
       <point x="88" y="291" type="curve"/>
       <point x="88" y="526" type="line"/>
-      <point x="540" y="451.333"/>
-      <point x="892.333" y="243"/>
+      <point x="540" y="451"/>
+      <point x="892" y="243"/>
       <point x="1145" y="-99" type="curve"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.ttprogram</key>
-  <data>
-  <ttProgram>
-    <ttc code="alignv" point="av01" align="round"/>
-    <ttc code="alignv" point="av02" align="round"/>
-    <ttc code="interpolatev" point="hr00" point1="av02" point2="av01"/>
-    <ttc code="interpolatev" point="iv01" point1="av02" point2="av01"/>
-  </ttProgram>
-  </data>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="-400" width="-21" />
-      <hstem pos="1523" width="-20" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
   </lib>
 </glyph>

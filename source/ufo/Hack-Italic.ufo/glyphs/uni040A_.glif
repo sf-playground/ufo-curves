@@ -12,15 +12,15 @@
       <point x="978" y="1493" type="line"/>
       <point x="861" y="893" type="line" name="dv02"/>
       <point x="882" y="893" type="line" smooth="yes"/>
-      <point x="1120.85" y="893"/>
-      <point x="1213" y="756.385"/>
-      <point x="1213" y="591" type="curve" smooth="yes" name="dh02"/>
-      <point x="1213" y="552.333"/>
-      <point x="1207.67" y="500"/>
+      <point x="1121" y="893"/>
+      <point x="1213" y="756"/>
+      <point x="1213" y="591" type="curve" name="dh02" smooth="yes"/>
+      <point x="1213" y="552"/>
+      <point x="1208" y="500"/>
       <point x="1197" y="448" type="curve" smooth="yes"/>
-      <point x="1132.77" y="145.565"/>
-      <point x="900.21" y="0"/>
-      <point x="709" y="0" type="curve" smooth="yes" name="ab01"/>
+      <point x="1133" y="146"/>
+      <point x="900" y="0"/>
+      <point x="709" y="0" type="curve" name="ab01" smooth="yes"/>
       <point x="502" y="0" type="line"/>
       <point x="640" y="711" type="line" name="dv01"/>
       <point x="245" y="711" type="line"/>
@@ -28,49 +28,24 @@
       <point x="-79" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="741" y="166" type="line" smooth="yes" name="sv02"/>
-      <point x="860.986" y="166"/>
-      <point x="977.019" y="264.769"/>
+      <point x="741" y="166" type="line" name="sv02" smooth="yes"/>
+      <point x="861" y="166"/>
+      <point x="977" y="265"/>
       <point x="1009" y="438" type="curve" smooth="yes"/>
-      <point x="1015.67" y="472.667"/>
+      <point x="1016" y="473"/>
       <point x="1019" y="514"/>
-      <point x="1019" y="538" type="curve" smooth="yes" name="dh01"/>
-      <point x="1019" y="629.61"/>
-      <point x="976.9" y="727"/>
+      <point x="1019" y="538" type="curve" name="dh01" smooth="yes"/>
+      <point x="1019" y="630"/>
+      <point x="977" y="727"/>
       <point x="850" y="727" type="curve" smooth="yes"/>
       <point x="829" y="727" type="line"/>
       <point x="720" y="166" type="line"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.ttprogram</key>
-  <data>
-  <ttProgram>
-    <ttc code="alignt" point="hr00" zone="t: 1"/>
-    <ttc code="alignt" point="at01" zone="t: 1"/>
-    <ttc code="alignb" point="ab01" zone="b: 0"/>
-    <ttc code="alignb" point="ab02" zone="b: 0"/>
-    <ttc code="doublev" point1="dv01" point2="dv02" stem="y: 170.Hstem"/>
-    <ttc code="singlev" point1="dv02" point2="sv01" align="round"/>
-    <ttc code="singlev" point1="ab01" point2="sv02" stem="y: 170.Hstem"/>
-    <ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 194"/>
-    <ttc code="mdeltah" point="dh01" delta="3" ppm1="17" ppm2="18"/>
-    <ttc code="mdeltah" point="dh01" delta="2" ppm1="9" ppm2="16"/>
-    <ttc code="singleh" point1="dh02" point2="rsb" round="true"/>
-  </ttProgram>
-  </data>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="0" width="166" />
-      <hstem pos="711" width="182" />
-      <hstem pos="1493" width="-20" />
-      <vstem pos="1019" width="194" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
   </lib>
 </glyph>

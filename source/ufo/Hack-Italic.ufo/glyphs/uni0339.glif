@@ -5,44 +5,25 @@
   <outline>
     <contour>
       <point x="-950" y="-404" type="line" name="sv01"/>
-      <point x="-882.494" y="-404"/>
-      <point x="-801" y="-342.723"/>
-      <point x="-801" y="-261" type="curve" smooth="yes" name="dh01"/>
+      <point x="-882" y="-404"/>
+      <point x="-801" y="-343"/>
+      <point x="-801" y="-261" type="curve" name="dh01" smooth="yes"/>
       <point x="-801" y="-209"/>
       <point x="-834" y="-161"/>
       <point x="-902" y="-161" type="curve"/>
       <point x="-883" y="-63" type="line" name="sv02"/>
-      <point x="-759.312" y="-63"/>
-      <point x="-701" y="-149.667"/>
-      <point x="-701" y="-243" type="curve" smooth="yes" name="dh02"/>
-      <point x="-701" y="-391.182"/>
-      <point x="-845.26" y="-502"/>
+      <point x="-759" y="-63"/>
+      <point x="-701" y="-150"/>
+      <point x="-701" y="-243" type="curve" name="dh02" smooth="yes"/>
+      <point x="-701" y="-391"/>
+      <point x="-845" y="-502"/>
       <point x="-969" y="-502" type="curve" name="hr01"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.ttprogram</key>
-  <data>
-  <ttProgram>
-    <ttc code="alignb" point="hr01" zone="b: 1"/>
-    <ttc code="singlev" point1="hr01" point2="sv01" stem="y: 143"/>
-    <ttc code="singlev" point1="hr01" point2="sv02" round="true"/>
-    <ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 114"/>
-    <ttc code="mdeltah" point="dh01" delta="3" ppm1="25" ppm2="26"/>
-    <ttc code="mdeltah" point="dh01" delta="2" ppm1="9" ppm2="24"/>
-  </ttProgram>
-  </data>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="sv01">
-      <hstem pos="-502" width="98" />
-      <hstem pos="-502" width="439" />
-      <vstem pos="-801" width="100" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
   </lib>
 </glyph>

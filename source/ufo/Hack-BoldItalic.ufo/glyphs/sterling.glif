@@ -11,27 +11,27 @@
       <point x="174" y="819" type="line"/>
       <point x="373" y="819" type="line" name="dv02"/>
       <point x="410" y="1016" type="line" smooth="yes"/>
-      <point x="444.667" y="1198.67"/>
-      <point x="505" y="1324.67"/>
+      <point x="445" y="1199"/>
+      <point x="505" y="1325"/>
       <point x="589" y="1402" type="curve" smooth="yes"/>
-      <point x="674.333" y="1482"/>
-      <point x="798.667" y="1520"/>
-      <point x="952" y="1520" type="curve" smooth="yes" name="at01"/>
-      <point x="1005.33" y="1520"/>
-      <point x="1055.33" y="1514.67"/>
+      <point x="674" y="1482"/>
+      <point x="799" y="1520"/>
+      <point x="952" y="1520" type="curve" name="at01" smooth="yes"/>
+      <point x="1005" y="1520"/>
+      <point x="1055" y="1515"/>
       <point x="1102" y="1504" type="curve" smooth="yes"/>
-      <point x="1150.67" y="1492.67"/>
-      <point x="1198.33" y="1476.67"/>
+      <point x="1151" y="1493"/>
+      <point x="1198" y="1477"/>
       <point x="1245" y="1456" type="curve"/>
       <point x="1192" y="1190" type="line" name="iv01"/>
-      <point x="1108.9" y="1247.31"/>
-      <point x="1038.81" y="1272"/>
-      <point x="952" y="1272" type="curve" smooth="yes" name="sv01"/>
+      <point x="1109" y="1247"/>
+      <point x="1039" y="1272"/>
+      <point x="952" y="1272" type="curve" name="sv01" smooth="yes"/>
       <point x="882" y="1272"/>
-      <point x="826" y="1249.67"/>
+      <point x="826" y="1250"/>
       <point x="784" y="1205" type="curve" smooth="yes"/>
-      <point x="742.667" y="1161"/>
-      <point x="710.667" y="1093.67"/>
+      <point x="743" y="1161"/>
+      <point x="711" y="1094"/>
       <point x="692" y="995" type="curve" smooth="yes"/>
       <point x="659" y="819" type="line" name="sv02"/>
       <point x="995" y="819" type="line"/>
@@ -44,33 +44,9 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.ttprogram</key>
-  <data>
-  <ttProgram>
-    <ttc code="alignt" point="at01" zone="t: 1"/>
-    <ttc code="alignb" point="ab01" zone="b: 0"/>
-    <ttc code="doublev" point1="dv01" point2="dv02" stem="y: 225"/>
-    <ttc code="singlev" point1="ab01" point2="hr00" stem="y: 260.Hstem"/>
-    <ttc code="interpolatev" point="iv01" point1="ab01" point2="at01"/>
-    <ttc code="singlev" point1="at01" point2="sv01" stem="y: 260.Hstem"/>
-    <ttc code="mdeltav" point="sv01" delta="1" ppm1="9" ppm2="9"/>
-    <ttc code="singlev" point1="dv02" point2="sv02"/>
-    <ttc code="singlev" point1="dv01" point2="sv03"/>
-    <ttc code="singlev" point1="hr00" point2="sv04"/>
-    <ttc code="singlev" point1="sv04" point2="sv05"/>
-  </ttProgram>
-  </data>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="0" width="260" />
-      <hstem pos="594" width="225" />
-      <hstem pos="1272" width="248" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
   </lib>
 </glyph>

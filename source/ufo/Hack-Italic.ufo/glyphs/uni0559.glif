@@ -5,51 +5,30 @@
   <outline>
     <contour>
       <point x="819" y="1007" type="curve" name="hr00"/>
-      <point x="683.918" y="1007"/>
-      <point x="593" y="1101.92"/>
-      <point x="593" y="1229" type="curve" smooth="yes" name="dh01"/>
-      <point x="593" y="1246.33"/>
-      <point x="595.333" y="1263.33"/>
+      <point x="684" y="1007"/>
+      <point x="593" y="1102"/>
+      <point x="593" y="1229" type="curve" name="dh01" smooth="yes"/>
+      <point x="593" y="1246"/>
+      <point x="595" y="1263"/>
       <point x="598" y="1282" type="curve"/>
-      <point x="627.343" y="1434.05"/>
-      <point x="771.893" y="1556"/>
+      <point x="627" y="1434"/>
+      <point x="772" y="1556"/>
       <point x="925" y="1556" type="curve" name="at02"/>
       <point x="901" y="1433" type="line" name="sv01"/>
-      <point x="805.97" y="1433"/>
-      <point x="717" y="1348.94"/>
-      <point x="717" y="1252" type="curve" smooth="yes" name="dh02"/>
-      <point x="717" y="1181.33"/>
+      <point x="806" y="1433"/>
+      <point x="717" y="1349"/>
+      <point x="717" y="1252" type="curve" name="dh02" smooth="yes"/>
+      <point x="717" y="1181"/>
       <point x="766" y="1130"/>
       <point x="842" y="1130" type="curve" name="at01"/>
-      <point x="834" y="1088.67"/>
-      <point x="825.667" y="1048.33"/>
+      <point x="834" y="1089"/>
+      <point x="826" y="1048"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.ttprogram</key>
-  <data>
-  <ttProgram>
-    <ttc code="alignv" point="hr00" align="round"/>
-    <ttc code="alignt" point="at01" zone="t: 0"/>
-    <ttc code="alignt" point="at02" zone="t: 2"/>
-    <ttc code="singlev" point1="at02" point2="sv01" stem="y: 143"/>
-    <ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 114"/>
-    <ttc code="mdeltah" point="dh02" delta="-2" ppm1="9" ppm2="24"/>
-    <ttc code="mdeltah" point="dh02" delta="-3" ppm1="25" ppm2="26"/>
-  </ttProgram>
-  </data>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="1028" width="-21" />
-      <hstem pos="1130" width="-20" />
-      <hstem pos="1433" width="123" />
-      <vstem pos="593" width="124" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
   </lib>
 </glyph>

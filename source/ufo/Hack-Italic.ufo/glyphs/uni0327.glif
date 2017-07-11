@@ -4,50 +4,32 @@
   <unicode hex="0327"/>
   <outline>
     <contour>
-      <point x="-867" y="-395" type="curve" smooth="yes" name="hr00"/>
-      <point x="-924.333" y="-395"/>
+      <point x="-867" y="-395" type="curve" name="hr00" smooth="yes"/>
+      <point x="-924" y="-395"/>
       <point x="-987" y="-385"/>
       <point x="-1051" y="-365" type="curve"/>
       <point x="-1026" y="-236" type="line"/>
-      <point x="-972.667" y="-261.333"/>
-      <point x="-924.667" y="-274"/>
-      <point x="-878" y="-274" type="curve" smooth="yes" name="dv01"/>
-      <point x="-791.333" y="-274"/>
+      <point x="-973" y="-261"/>
+      <point x="-925" y="-274"/>
+      <point x="-878" y="-274" type="curve" name="dv01" smooth="yes"/>
+      <point x="-791" y="-274"/>
       <point x="-739" y="-230"/>
-      <point x="-739" y="-162" type="curve" smooth="yes" name="dh01"/>
+      <point x="-739" y="-162" type="curve" name="dh01" smooth="yes"/>
       <point x="-739" y="-122"/>
-      <point x="-758.333" y="-72"/>
+      <point x="-758" y="-72"/>
       <point x="-797" y="0" type="curve" name="ab01"/>
       <point x="-678" y="0" type="line"/>
-      <point x="-627.333" y="-89.3333"/>
-      <point x="-606" y="-143.333"/>
-      <point x="-606" y="-198" type="curve" smooth="yes" name="dh02"/>
-      <point x="-606" y="-314.338"/>
-      <point x="-706.818" y="-395"/>
+      <point x="-627" y="-89"/>
+      <point x="-606" y="-143"/>
+      <point x="-606" y="-198" type="curve" name="dh02" smooth="yes"/>
+      <point x="-606" y="-314"/>
+      <point x="-707" y="-395"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.ttprogram</key>
-  <data>
-  <ttProgram>
-    <ttc code="alignb" point="ab01" zone="b: 0"/>
-    <ttc code="doublev" point1="hr00" point2="dv01" stem="y: 143"/>
-    <ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 114"/>
-    <ttc code="mdeltah" point="dh01" delta="3" ppm1="25" ppm2="26"/>
-    <ttc code="mdeltah" point="dh01" delta="2" ppm1="9" ppm2="24"/>
-  </ttProgram>
-  </data>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="-395" width="121" />
-      <hstem pos="0" width="-20" />
-      <vstem pos="-739" width="133" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
   </lib>
 </glyph>

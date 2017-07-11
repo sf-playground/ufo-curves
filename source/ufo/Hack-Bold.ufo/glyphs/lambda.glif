@@ -6,14 +6,14 @@
     <contour>
       <point x="496" y="1069" type="line" name="hr00"/>
       <point x="455" y="1188" type="line" smooth="yes"/>
-      <point x="420.085" y="1287.37"/>
-      <point x="384.468" y="1321"/>
-      <point x="258" y="1321" type="curve" smooth="yes" name="sv01"/>
+      <point x="420" y="1287"/>
+      <point x="384" y="1321"/>
+      <point x="258" y="1321" type="curve" name="sv01" smooth="yes"/>
       <point x="146" y="1321" type="line"/>
       <point x="146" y="1556" type="line" name="at01"/>
       <point x="296" y="1556" type="line" smooth="yes"/>
-      <point x="539.433" y="1556"/>
-      <point x="663.028" y="1451.92"/>
+      <point x="539" y="1556"/>
+      <point x="663" y="1452"/>
       <point x="743" y="1220" type="curve"/>
       <point x="1158" y="0" type="line" name="ab01"/>
       <point x="861" y="0" type="line"/>
@@ -23,26 +23,9 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.ttprogram</key>
-  <data>
-  <ttProgram>
-    <ttc code="alignt" point="at01" zone="t: 2"/>
-    <ttc code="alignb" point="ab01" zone="b: 0"/>
-    <ttc code="alignb" point="ab02" zone="b: 0"/>
-    <ttc code="singlev" point1="at01" point2="sv01" stem="y: 225"/>
-    <ttc code="interpolatev" point="iv01" point1="ab01" point2="at01"/>
-  </ttProgram>
-  </data>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="21" width="-21" />
-      <hstem pos="1321" width="235" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
   </lib>
 </glyph>

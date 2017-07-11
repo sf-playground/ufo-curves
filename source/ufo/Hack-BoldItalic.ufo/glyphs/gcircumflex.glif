@@ -15,89 +15,77 @@
     <contour>
       <point x="17" y="-369" type="curve"/>
       <point x="70" y="-100" type="line"/>
-      <point x="167.333" y="-157.333"/>
-      <point x="279.667" y="-190"/>
+      <point x="167" y="-157"/>
+      <point x="280" y="-190"/>
       <point x="393" y="-190" type="curve" smooth="yes"/>
-      <point x="483.667" y="-190"/>
-      <point x="545.333" y="-172"/>
+      <point x="484" y="-190"/>
+      <point x="545" y="-172"/>
       <point x="592" y="-132" type="curve" smooth="yes"/>
-      <point x="639.333" y="-92.6667"/>
-      <point x="671" y="-31.6667"/>
+      <point x="639" y="-93"/>
+      <point x="671" y="-32"/>
       <point x="687" y="51" type="curve" smooth="yes"/>
       <point x="711" y="172" type="line"/>
-      <point x="631" y="65.3333"/>
-      <point x="528.667" y="14"/>
-      <point x="394" y="14" type="curve" smooth="yes" name="hr01"/>
-      <point x="184.667" y="14"/>
-      <point x="65" y="153.667"/>
+      <point x="631" y="65"/>
+      <point x="529" y="14"/>
+      <point x="394" y="14" type="curve" name="hr01" smooth="yes"/>
+      <point x="185" y="14"/>
+      <point x="65" y="154"/>
       <point x="65" y="395" type="curve" smooth="yes"/>
-      <point x="65" y="454.333"/>
-      <point x="71.3333" y="513.667"/>
+      <point x="65" y="454"/>
+      <point x="71" y="514"/>
       <point x="84" y="573" type="curve"/>
       <point x="106" y="689"/>
-      <point x="142.333" y="790"/>
-      <point x="193" y="876" type="curve" smooth="yes" name="hr02"/>
-      <point x="294.333" y="1049.33"/>
-      <point x="446.333" y="1149"/>
+      <point x="142" y="790"/>
+      <point x="193" y="876" type="curve" name="hr02" smooth="yes"/>
+      <point x="294" y="1049"/>
+      <point x="446" y="1149"/>
       <point x="609" y="1149" type="curve" smooth="yes"/>
-      <point x="739.667" y="1149"/>
-      <point x="831" y="1086.33"/>
+      <point x="740" y="1149"/>
+      <point x="831" y="1086"/>
       <point x="867" y="977" type="curve"/>
       <point x="924" y="1120" type="line"/>
       <point x="1188" y="1120" type="line"/>
       <point x="986" y="84" type="line" smooth="yes"/>
-      <point x="962.667" y="-36"/>
-      <point x="926.333" y="-133"/>
+      <point x="963" y="-36"/>
+      <point x="926" y="-133"/>
       <point x="877" y="-207" type="curve" smooth="yes"/>
       <point x="777" y="-355"/>
-      <point x="615.333" y="-424"/>
+      <point x="615" y="-424"/>
       <point x="370" y="-424" type="curve" smooth="yes"/>
-      <point x="248.667" y="-424"/>
-      <point x="131" y="-405.667"/>
+      <point x="249" y="-424"/>
+      <point x="131" y="-406"/>
     </contour>
     <contour>
       <point x="657" y="304" type="curve"/>
-      <point x="724.333" y="372"/>
-      <point x="768.333" y="463"/>
+      <point x="724" y="372"/>
+      <point x="768" y="463"/>
       <point x="789" y="577" type="curve" smooth="yes"/>
       <point x="797" y="619"/>
-      <point x="801" y="657.667"/>
+      <point x="801" y="658"/>
       <point x="801" y="693" type="curve" smooth="yes"/>
-      <point x="801" y="827.667"/>
-      <point x="744.333" y="909"/>
+      <point x="801" y="828"/>
+      <point x="744" y="909"/>
       <point x="647" y="909" type="curve" smooth="yes"/>
       <point x="567" y="909"/>
-      <point x="491.667" y="852"/>
+      <point x="492" y="852"/>
       <point x="437" y="752" type="curve" smooth="yes"/>
-      <point x="390.333" y="664"/>
+      <point x="390" y="664"/>
       <point x="365" y="550"/>
       <point x="365" y="462" type="curve" smooth="yes"/>
       <point x="365" y="436"/>
-      <point x="366.333" y="416.333"/>
+      <point x="366" y="416"/>
       <point x="369" y="403" type="curve"/>
-      <point x="383.667" y="301.667"/>
-      <point x="436.667" y="246"/>
+      <point x="384" y="302"/>
+      <point x="437" y="246"/>
       <point x="518" y="246" type="curve" smooth="yes"/>
       <point x="574" y="246"/>
-      <point x="620.333" y="265.333"/>
+      <point x="620" y="265"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="-424" width="234" />
-      <hstem pos="14" width="232" />
-      <hstem pos="909" width="240" />
-      <hstem pos="1120" width="-20" />
-      <hstem pos="1673" width="-20" />
-      <vstem pos="65" width="300" />
-      <vstem pos="365" width="436" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
   </lib>
 </glyph>

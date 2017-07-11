@@ -4,21 +4,21 @@
   <unicode hex="0439"/>
   <outline>
     <contour>
-      <point x="736" y="1270" type="curve" smooth="yes" name="sv01"/>
-      <point x="545.333" y="1270"/>
-      <point x="446" y="1355.33"/>
+      <point x="736" y="1270" type="curve" name="sv01" smooth="yes"/>
+      <point x="545" y="1270"/>
+      <point x="446" y="1355"/>
       <point x="446" y="1534" type="curve" smooth="yes"/>
       <point x="446" y="1567" type="line" name="dh01"/>
       <point x="590" y="1567" type="line"/>
-      <point x="590" y="1554" type="line" smooth="yes" name="dh02"/>
-      <point x="590" y="1472.67"/>
+      <point x="590" y="1554" type="line" name="dh02" smooth="yes"/>
+      <point x="590" y="1473"/>
       <point x="652" y="1421"/>
-      <point x="756" y="1421" type="curve" smooth="yes" name="sv02"/>
-      <point x="861.333" y="1421"/>
-      <point x="943.667" y="1475"/>
+      <point x="756" y="1421" type="curve" name="sv02" smooth="yes"/>
+      <point x="861" y="1421"/>
+      <point x="944" y="1475"/>
       <point x="977" y="1567" type="curve" name="at03"/>
       <point x="1120" y="1567" type="line"/>
-      <point x="1081.33" y="1381.67"/>
+      <point x="1081" y="1382"/>
       <point x="952" y="1270"/>
     </contour>
     <contour>
@@ -35,37 +35,9 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.ttprogram</key>
-  <data>
-  <ttProgram>
-    <ttc code="alignt" point="at01" zone="t: 0"/>
-    <ttc code="alignt" point="at02" zone="t: 0"/>
-    <ttc code="alignt" point="dh01" zone="t: 2"/>
-    <ttc code="alignt" point="dh02" zone="t: 2"/>
-    <ttc code="alignt" point="at03" zone="t: 2"/>
-    <ttc code="alignb" point="hr01" zone="b: 0"/>
-    <ttc code="alignb" point="ab01" zone="b: 0"/>
-    <ttc code="singlev" point1="dh02" point2="sv01" stem="y: 260.Hstem"/>
-    <ttc code="mdeltav" point="sv01" delta="1" ppm1="9" ppm2="9"/>
-    <ttc code="singlev" point1="sv01" point2="sv02" stem="Y: 172"/>
-    <ttc code="interpolatev" point="iv01" point1="hr01" point2="dh01"/>
-    <ttc code="interpolatev" point="hr02" point1="hr01" point2="dh01"/>
-    <ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 160.Vstem"/>
-  </ttProgram>
-  </data>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="sv01">
-      <hstem pos="21" width="-21" />
-      <hstem pos="1120" width="-20" />
-      <hstem pos="1270" width="151" />
-      <hstem pos="1270" width="297" />
-      <vstem pos="446" width="144" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
   </lib>
 </glyph>

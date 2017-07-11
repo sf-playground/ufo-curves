@@ -17,54 +17,54 @@
     </contour>
     <contour>
       <point x="1164" y="737" type="curve" smooth="yes"/>
-      <point x="1221.33" y="810.333"/>
-      <point x="1267" y="923.333"/>
+      <point x="1221" y="810"/>
+      <point x="1267" y="923"/>
       <point x="1291" y="1050" type="curve" smooth="yes"/>
       <point x="1303" y="1110"/>
-      <point x="1309" y="1166.33"/>
+      <point x="1309" y="1166"/>
       <point x="1309" y="1219" type="curve" smooth="yes"/>
-      <point x="1309" y="1278.33"/>
-      <point x="1301.33" y="1326.67"/>
+      <point x="1309" y="1278"/>
+      <point x="1301" y="1327"/>
       <point x="1286" y="1364" type="curve"/>
-      <point x="1258" y="1442.67"/>
-      <point x="1208.67" y="1492"/>
-      <point x="1134" y="1492" type="curve" smooth="yes" name="hr01"/>
-      <point x="1066.67" y="1492"/>
-      <point x="999.333" y="1449.67"/>
+      <point x="1258" y="1443"/>
+      <point x="1209" y="1492"/>
+      <point x="1134" y="1492" type="curve" name="hr01" smooth="yes"/>
+      <point x="1067" y="1492"/>
+      <point x="999" y="1450"/>
       <point x="932" y="1365" type="curve"/>
-      <point x="874.667" y="1290.33"/>
-      <point x="829" y="1175.33"/>
+      <point x="875" y="1290"/>
+      <point x="829" y="1175"/>
       <point x="805" y="1050" type="curve" smooth="yes"/>
-      <point x="793.667" y="991.333"/>
-      <point x="788" y="934.667"/>
+      <point x="794" y="991"/>
+      <point x="788" y="935"/>
       <point x="788" y="880" type="curve" smooth="yes"/>
-      <point x="788" y="819.333"/>
-      <point x="795.333" y="771.333"/>
+      <point x="788" y="819"/>
+      <point x="795" y="771"/>
       <point x="810" y="736" type="curve" smooth="yes"/>
-      <point x="843.333" y="658.667"/>
+      <point x="843" y="659"/>
       <point x="887" y="610"/>
       <point x="963" y="610" type="curve" smooth="yes"/>
-      <point x="1031.67" y="610"/>
-      <point x="1098.67" y="652.333"/>
+      <point x="1032" y="610"/>
+      <point x="1099" y="652"/>
     </contour>
     <contour>
       <point x="948" y="951" type="curve" smooth="yes"/>
-      <point x="948" y="982.333"/>
-      <point x="951.333" y="1014.67"/>
+      <point x="948" y="982"/>
+      <point x="951" y="1015"/>
       <point x="958" y="1048" type="curve" smooth="yes"/>
-      <point x="982.134" y="1172.69"/>
-      <point x="1045.33" y="1277"/>
+      <point x="982" y="1173"/>
+      <point x="1045" y="1277"/>
       <point x="1097" y="1277" type="curve" smooth="yes"/>
-      <point x="1134.33" y="1277"/>
+      <point x="1134" y="1277"/>
       <point x="1158" y="1223"/>
-      <point x="1158" y="1143" type="curve" smooth="yes" name="hr02"/>
-      <point x="1158" y="1117.67"/>
-      <point x="1154.67" y="1086"/>
+      <point x="1158" y="1143" type="curve" name="hr02" smooth="yes"/>
+      <point x="1158" y="1118"/>
+      <point x="1155" y="1086"/>
       <point x="1148" y="1048" type="curve" smooth="yes"/>
-      <point x="1123.86" y="923.284"/>
-      <point x="1058.99" y="819"/>
+      <point x="1124" y="923"/>
+      <point x="1059" y="819"/>
       <point x="1008" y="819" type="curve" smooth="yes"/>
-      <point x="970.667" y="819"/>
+      <point x="971" y="819"/>
       <point x="948" y="871"/>
     </contour>
     <contour>
@@ -75,22 +75,9 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="21" width="-21" />
-      <hstem pos="331" width="173" />
-      <hstem pos="610" width="209" />
-      <hstem pos="1277" width="216" />
-      <hstem pos="1492" width="-20" />
-      <vstem pos="270" width="153" />
-      <vstem pos="788" width="160" />
-      <vstem pos="1158" width="151" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
   </lib>
 </glyph>

@@ -5,59 +5,40 @@
   <outline>
     <contour>
       <point x="-685" y="1376" type="line" name="hr00"/>
-      <point x="-647.667" y="1385.33"/>
-      <point x="-599.667" y="1411.33"/>
+      <point x="-648" y="1385"/>
+      <point x="-600" y="1411"/>
       <point x="-577" y="1438" type="curve"/>
-      <point x="-562.333" y="1452.67"/>
+      <point x="-562" y="1453"/>
       <point x="-555" y="1472"/>
-      <point x="-555" y="1500" type="curve" smooth="yes" name="sh01"/>
-      <point x="-555" y="1590.75"/>
-      <point x="-638.767" y="1593.73"/>
+      <point x="-555" y="1500" type="curve" name="sh01" smooth="yes"/>
+      <point x="-555" y="1591"/>
+      <point x="-639" y="1594"/>
       <point x="-677" y="1591" type="curve" name="sv01"/>
       <point x="-727" y="1591" type="line" smooth="yes"/>
-      <point x="-758.333" y="1591"/>
-      <point x="-797" y="1580.67"/>
+      <point x="-758" y="1591"/>
+      <point x="-797" y="1581"/>
       <point x="-843" y="1560" type="curve" name="dh01"/>
       <point x="-843" y="1712" type="line"/>
-      <point x="-772.333" y="1729.33"/>
+      <point x="-772" y="1729"/>
       <point x="-705" y="1738"/>
-      <point x="-641" y="1738" type="curve" smooth="yes" name="dv02"/>
-      <point x="-491.667" y="1738"/>
-      <point x="-409" y="1689.67"/>
+      <point x="-641" y="1738" type="curve" name="dv02" smooth="yes"/>
+      <point x="-492" y="1738"/>
+      <point x="-409" y="1690"/>
       <point x="-393" y="1593" type="curve" name="hr01"/>
-      <point x="-391.667" y="1579.67"/>
-      <point x="-391" y="1565.67"/>
-      <point x="-391" y="1555" type="curve" smooth="yes" name="dh02"/>
-      <point x="-391" y="1489.67"/>
-      <point x="-425.667" y="1423.33"/>
+      <point x="-392" y="1580"/>
+      <point x="-391" y="1566"/>
+      <point x="-391" y="1555" type="curve" name="dh02" smooth="yes"/>
+      <point x="-391" y="1490"/>
+      <point x="-426" y="1423"/>
       <point x="-495" y="1346" type="curve"/>
       <point x="-495" y="1262" type="line" name="hr02"/>
       <point x="-685" y="1262" type="line" name="dv01"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.ttprogram</key>
-  <data>
-  <ttProgram>
-    <ttc code="doublev" point1="dv01" point2="dv02" stem="y: 260.Hstem"/>
-    <ttc code="singlev" point1="dv02" point2="sv01" stem="Y: 172"/>
-    <ttc code="interpolatev" point="dh01" point1="dv01" point2="dv02"/>
-    <ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 295.Vstem"/>
-    <ttc code="singleh" point1="dh02" point2="sh01" stem="X: 160"/>
-  </ttProgram>
-  </data>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="1262" width="476" />
-      <hstem pos="1591" width="147" />
-      <vstem pos="-843" width="452" />
-      <vstem pos="-555" width="164" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
   </lib>
 </glyph>

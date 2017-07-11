@@ -15,16 +15,16 @@
     <contour>
       <point x="20" y="-199" type="line"/>
       <point x="254" y="-199" type="line" smooth="yes"/>
-      <point x="387.905" y="-199"/>
-      <point x="446.682" y="-135.553"/>
+      <point x="388" y="-199"/>
+      <point x="447" y="-136"/>
       <point x="482" y="43" type="curve"/>
       <point x="647" y="895" type="line"/>
       <point x="350" y="895" type="line"/>
       <point x="394" y="1120" type="line"/>
       <point x="984" y="1120" type="line"/>
       <point x="775" y="43" type="line" smooth="yes"/>
-      <point x="753" y="-68.3333"/>
-      <point x="722.333" y="-158.667"/>
+      <point x="753" y="-68"/>
+      <point x="722" y="-159"/>
       <point x="683" y="-228" type="curve"/>
       <point x="603" y="-364"/>
       <point x="481" y="-424"/>
@@ -33,17 +33,9 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="-424" width="225" />
-      <hstem pos="895" width="225" />
-      <hstem pos="1673" width="-20" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
   </lib>
 </glyph>

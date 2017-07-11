@@ -5,11 +5,11 @@
   <outline>
     <contour>
       <point x="-74" y="164" type="line" name="hr00"/>
-      <point x="117.217" y="164"/>
-      <point x="139.29" y="230.101"/>
+      <point x="117" y="164"/>
+      <point x="139" y="230"/>
       <point x="215" y="517" type="curve"/>
-      <point x="244.331" y="631.659"/>
-      <point x="276.049" y="784.579"/>
+      <point x="244" y="632"/>
+      <point x="276" y="785"/>
       <point x="332" y="1067" type="curve" smooth="yes"/>
       <point x="415" y="1493" type="line" name="at01"/>
       <point x="1229" y="1493" type="line"/>
@@ -18,35 +18,18 @@
       <point x="993" y="1323" type="line" name="sv01"/>
       <point x="585" y="1323" type="line"/>
       <point x="536" y="1073" type="line"/>
-      <point x="447.679" y="631.395"/>
-      <point x="397.554" y="283.512"/>
+      <point x="448" y="631"/>
+      <point x="398" y="284"/>
       <point x="226" y="120" type="curve" smooth="yes"/>
-      <point x="140.809" y="40.1332"/>
-      <point x="69.7873" y="0"/>
+      <point x="141" y="40"/>
+      <point x="70" y="0"/>
       <point x="-106" y="0" type="curve" name="ab02"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.ttprogram</key>
-  <data>
-  <ttProgram>
-    <ttc code="alignt" point="at01" zone="t: 1"/>
-    <ttc code="alignb" point="ab01" zone="b: 0"/>
-    <ttc code="alignb" point="ab02" zone="b: 0"/>
-    <ttc code="singlev" point1="ab02" point2="hr00" stem="y: 170.Hstem"/>
-    <ttc code="singlev" point1="at01" point2="sv01" stem="y: 170.Hstem"/>
-  </ttProgram>
-  </data>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="0" width="164" />
-      <hstem pos="1323" width="170" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
   </lib>
 </glyph>
