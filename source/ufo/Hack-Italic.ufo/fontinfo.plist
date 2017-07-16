@@ -7,7 +7,7 @@
 	<key>capHeight</key>
 	<integer>1493</integer>
 	<key>copyright</key>
-	<string>Copyright (c) 2016 Christopher Simpkins / Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.</string>
+	<string>Copyright (c) 2017 Christopher Simpkins / Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.</string>
 	<key>descender</key>
 	<integer>-492</integer>
 	<key>familyName</key>
@@ -21,7 +21,7 @@
 	<key>note</key>
 	<string></string>
 	<key>openTypeHeadCreated</key>
-	<string>2016/01/16 22:38:52</string>
+	<string>2017/07/15 12:00:00</string>
 	<key>openTypeHeadFlags</key>
 	<array>
 	</array>
@@ -40,7 +40,7 @@
 	<key>openTypeNameDesignerURL</key>
 	<string>https://github.com/chrissimpkins/Hack</string>
 	<key>openTypeNameLicense</key>
-	<string>Hack Copyright 2016, Christopher Simpkins with Reserved Font Name "Hack".
+	<string>Hack Copyright 2017, Christopher Simpkins with Reserved Font Name "Hack".
 
 Bitstream Vera Sans Mono Copyright 2003 Bitstream Inc. and licensed under the Bitstream Vera License with Reserved Font Names "Bitstream" and "Vera"
 
@@ -105,9 +105,9 @@ Except as contained in this notice, the names of Gnome, the Gnome Foundation, an
 	<key>openTypeNameLicenseURL</key>
 	<string>https://github.com/chrissimpkins/Hack/blob/master/LICENSE.md</string>
 	<key>openTypeNameManufacturer</key>
-	<string>Christopher Simpkins</string>
+	<string>Source Foundry</string>
 	<key>openTypeNameManufacturerURL</key>
-	<string>https://github.com/chrissimpkins/Hack</string>
+	<string>https://github.com/source-foundry</string>
 	<key>openTypeNamePreferredFamilyName</key>
 	<string>Hack</string>
 	<key>openTypeNamePreferredSubfamilyName</key>
@@ -117,7 +117,7 @@ Except as contained in this notice, the names of Gnome, the Gnome Foundation, an
 	<key>openTypeNameUniqueID</key>
 	<string>ChristopherSimpkins: Hack Italic: 2015</string>
 	<key>openTypeNameVersion</key>
-	<string>Version 2.020</string>
+	<string>Version 3.000</string>
 	<key>openTypeOS2CodePageRanges</key>
 	<array>
 		<integer>0</integer>
@@ -219,7 +219,7 @@ Except as contained in this notice, the names of Gnome, the Gnome Foundation, an
 		<integer>45</integer>
 	</array>
 	<key>openTypeOS2VendorID</key>
-	<string>simp</string>
+	<string>SRCF</string>
 	<key>openTypeOS2WeightClass</key>
 	<integer>400</integer>
 	<key>openTypeOS2WidthClass</key>
@@ -244,11 +244,11 @@ Except as contained in this notice, the names of Gnome, the Gnome Foundation, an
 		<integer>1520</integer>
 	</array>
 	<key>postscriptFontName</key>
-	<string>Hack-MonospacedItalic</string>
+	<string>Hack-Italic</string>
 	<key>postscriptForceBold</key>
 	<false/>
 	<key>postscriptFullName</key>
-	<string>Hack Monospaced Italic</string>
+	<string>Hack Italic</string>
 	<key>postscriptIsFixedPitch</key>
 	<true/>
 	<key>postscriptOtherBlues</key>
@@ -278,7 +278,7 @@ Except as contained in this notice, the names of Gnome, the Gnome Foundation, an
 	<key>styleMapFamilyName</key>
 	<string>Hack</string>
 	<key>styleMapStyleName</key>
-	<string>regular</string>
+	<string>italic</string>
 	<key>styleName</key>
 	<string>Hack</string>
 	<key>trademark</key>
@@ -286,12 +286,10 @@ Except as contained in this notice, the names of Gnome, the Gnome Foundation, an
 	<key>unitsPerEm</key>
 	<integer>2048</integer>
 	<key>versionMajor</key>
-	<integer>2</integer>
+	<integer>3</integer>
 	<key>versionMinor</key>
-	<integer>20</integer>
+	<integer>000</integer>
 	<key>xHeight</key>
 	<integer>1120</integer>
-	<key>year</key>
-	<integer>2015</integer>
 </dict>
 </plist>
