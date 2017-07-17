@@ -1,23 +1,3 @@
-# @@aalt1 = [ A O Scedilla a o scedilla exclamdown questiondown uni2E18 ];
-
-# @@aalt2 = [ ordfeminine ordmasculine ordfeminine ordmasculine exclamdown.case questiondown.case uni2E18.case ];
-
-# @@aalt3 = [ zero one two three four five six seven eight nine ];
-
-# @@subs1 = [ zero.subs one.subs two.subs three.subs four.subs five.subs six.subs seven.subs eight.subs nine.subs ];
-
-# @@sups1 = [ uni00B9 uni00B2 uni00B3 uni2070 uni2074 uni2075 uni2076 uni2077 uni2078 uni2079 ];
-
-# @aalt1 = [ A O Scedilla a o scedilla exclamdown questiondown uni2E18 ];
-
-# @aalt3 = [ zero one two three four five six seven eight nine ];
-
-# @sups1 = [ uni00B9 uni00B2 uni00B3 uni2070 uni2074 uni2075 uni2076 uni2077 uni2078 uni2079 ];
-
-# @subs1 = [ zero.subs one.subs two.subs three.subs four.subs five.subs six.subs seven.subs eight.subs nine.subs ];
-
-# @aalt2 = [ ordfeminine ordmasculine ordfeminine ordmasculine exclamdown.case questiondown.case uni2E18.case ];
-
 # Prefix: Languagesystems
 languagesystem DFLT dflt;
 languagesystem latn dflt;
@@ -25,16 +5,11 @@ languagesystem latn MOL ;
 languagesystem latn ROM ;
 
 # Prefix: Prefix
-@aalt1 = [\A \O \Scedilla \a \o \scedilla \exclamdown \questiondown \uni2E18];
-@aalt2 = [\ordfeminine \ordmasculine \ordfeminine \ordmasculine \exclamdown.case \questiondown.case \uni2E18.case];
-@aalt3 = [\zero \one \two \three \four \five \six \seven \eight \nine];
+@aalt1 = [\zero \one \two \three \four \five \six \seven \eight \nine];
 @subs1 = [\zero.subs \one.subs \two.subs \three.subs \four.subs \five.subs \six.subs \seven.subs \eight.subs \nine.subs];
 @sups1 = [\uni00B9 \uni00B2 \uni00B3 \uni2070 \uni2074 \uni2075 \uni2076 \uni2077 \uni2078 \uni2079];
-@aalt1 = [\A \O \Scedilla \a \o \scedilla \exclamdown \questiondown \uni2E18];
-@aalt2 = [\ordfeminine \ordmasculine \ordfeminine \ordmasculine \exclamdown.case \questiondown.case \uni2E18.case];
-@aalt3 = [\zero \one \two \three \four \five \six \seven \eight \nine];
-@subs1 = [\zero.subs \one.subs \two.subs \three.subs \four.subs \five.subs \six.subs \seven.subs \eight.subs \nine.subs];
-@sups1 = [\uni00B9 \uni00B2 \uni00B3 \uni2070 \uni2074 \uni2075 \uni2076 \uni2077 \uni2078 \uni2079];
+# @case1 = [\exclamdown \questiondown \uni2E18 \uni0304 \uni0306 \uni0307 \uni030B \uni030F \uni0311];
+# @case2 = [\exclamdown.case \questiondown.case \uni2E18.case \uni0304.case \uni0306.case \uni0307.case \uni030B.case \uni030F.case \uni0311.case];
 
 feature aalt {
   feature locl;
@@ -42,7 +17,6 @@ feature aalt {
   feature sinf;
   feature sups;
   feature ordn;
-  feature case;
 } aalt;
 
 feature locl {
@@ -57,9 +31,9 @@ feature locl {
 feature subs {
  # Subscript
  # DEFAULT
-    sub @aalt3 by @subs1;
+    sub @aalt1 by @subs1;
  script latn; # Latin
-    sub @aalt3 by @subs1;
+    sub @aalt1 by @subs1;
  language MOL ; # Moldavian
  language ROM ; # Romanian
 } subs;
@@ -67,9 +41,9 @@ feature subs {
 feature sinf {
  # Scientific Inferiors
  # DEFAULT
-    sub @aalt3 by @subs1;
+    sub @aalt1 by @subs1;
  script latn; # Latin
-    sub @aalt3 by @subs1;
+    sub @aalt1 by @subs1;
  language MOL ; # Moldavian
  language ROM ; # Romanian
 } sinf;
@@ -77,9 +51,9 @@ feature sinf {
 feature sups {
  # Superscript
  # DEFAULT
-    sub @aalt3 by @sups1;
+    sub @aalt1 by @sups1;
  script latn; # Latin
-    sub @aalt3 by @sups1;
+    sub @aalt1 by @sups1;
  language MOL ; # Moldavian
  language ROM ; # Romanian
 } sups;
@@ -125,22 +99,22 @@ feature frac {
 feature ordn {
  # Ordinals
  # DEFAULT
-    sub @aalt3 [A a]' by [ordfeminine ordfeminine];
-    sub @aalt3 [O o]' by [ordmasculine ordmasculine];
+    sub @aalt1 [A a]' by [ordfeminine ordfeminine];
+    sub @aalt1 [O o]' by [ordmasculine ordmasculine];
  script latn; # Latin
-    sub @aalt3 [A a]' by [ordfeminine ordfeminine];
-    sub @aalt3 [O o]' by [ordmasculine ordmasculine];
+    sub @aalt1 [A a]' by [ordfeminine ordfeminine];
+    sub @aalt1 [O o]' by [ordmasculine ordmasculine];
  language MOL ; # Moldavian
  language ROM ; # Romanian
 } ordn;
 
-feature case {
- # Case-Sensitive Forms
- # DEFAULT
-    sub [exclamdown questiondown uni2E18] by [exclamdown.case questiondown.case uni2E18.case];
- script latn; # Latin
-    sub [exclamdown questiondown uni2E18] by [exclamdown.case questiondown.case uni2E18.case];
- language MOL ; # Moldavian
- language ROM ; # Romanian
-} case;
+#feature case {
+# # Case-Sensitive Forms
+# # DEFAULT
+#    sub @case1 by @case2;
+# script latn; # Latin
+#    sub @case1 by @case2;
+# language MOL ; # Moldavian
+# language ROM ; # Romanian
+#} case;
 
