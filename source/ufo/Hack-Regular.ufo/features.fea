@@ -1,22 +1,22 @@
-@@aalt1 = [ A O Scedilla a o scedilla exclamdown questiondown uni2E18 ];
+# @@aalt1 = [ A O Scedilla a o scedilla exclamdown questiondown uni2E18 ];
 
-@@aalt2 = [ ordfeminine ordmasculine ordfeminine ordmasculine exclamdown.case questiondown.case uni2E18.case ];
+# @@aalt2 = [ ordfeminine ordmasculine ordfeminine ordmasculine exclamdown.case questiondown.case uni2E18.case ];
 
-@@aalt3 = [ zero one two three four five six seven eight nine ];
+# @@aalt3 = [ zero one two three four five six seven eight nine ];
 
-@@subs1 = [ zero.subs one.subs two.subs three.subs four.subs five.subs six.subs seven.subs eight.subs nine.subs ];
+# @@subs1 = [ zero.subs one.subs two.subs three.subs four.subs five.subs six.subs seven.subs eight.subs nine.subs ];
 
-@@sups1 = [ uni00B9 uni00B2 uni00B3 uni2070 uni2074 uni2075 uni2076 uni2077 uni2078 uni2079 ];
+# @@sups1 = [ uni00B9 uni00B2 uni00B3 uni2070 uni2074 uni2075 uni2076 uni2077 uni2078 uni2079 ];
 
-@aalt1 = [ A O Scedilla a o scedilla exclamdown questiondown uni2E18 ];
+# @aalt1 = [ A O Scedilla a o scedilla exclamdown questiondown uni2E18 ];
 
-@aalt3 = [ zero one two three four five six seven eight nine ];
+# @aalt3 = [ zero one two three four five six seven eight nine ];
 
-@sups1 = [ uni00B9 uni00B2 uni00B3 uni2070 uni2074 uni2075 uni2076 uni2077 uni2078 uni2079 ];
+# @sups1 = [ uni00B9 uni00B2 uni00B3 uni2070 uni2074 uni2075 uni2076 uni2077 uni2078 uni2079 ];
 
-@subs1 = [ zero.subs one.subs two.subs three.subs four.subs five.subs six.subs seven.subs eight.subs nine.subs ];
+# @subs1 = [ zero.subs one.subs two.subs three.subs four.subs five.subs six.subs seven.subs eight.subs nine.subs ];
 
-@aalt2 = [ ordfeminine ordmasculine ordfeminine ordmasculine exclamdown.case questiondown.case uni2E18.case ];
+# @aalt2 = [ ordfeminine ordmasculine ordfeminine ordmasculine exclamdown.case questiondown.case uni2E18.case ];
 
 # Prefix: Languagesystems
 languagesystem DFLT dflt;
