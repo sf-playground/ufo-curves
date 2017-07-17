@@ -235,7 +235,6 @@ Except as contained in this notice, the names of Gnome, the Gnome Foundation, an
 	<integer>14</integer>
 	<key>postscriptBlueValues</key>
 	<array>
-		<integer>-426</integer>
 		<integer>-29</integer>
 		<integer>0</integer>
 		<integer>1120</integer>
@@ -253,6 +252,8 @@ Except as contained in this notice, the names of Gnome, the Gnome Foundation, an
 	<true/>
 	<key>postscriptOtherBlues</key>
 	<array>
+		<integer>-440</integer>
+		<integer>-426</integer>
 	</array>
 	<key>postscriptStemSnapH</key>
 	<array>
